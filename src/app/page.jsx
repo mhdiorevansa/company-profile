@@ -1,5 +1,11 @@
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
+
 export default function Home() {
   return (
-    <h1>Hello world</h1>
+    <header className="mx-16 space-y-10">
+      <Navbar />
+      <Hero />
+    </header>
   );
 }
